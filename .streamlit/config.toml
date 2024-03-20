@@ -7,3 +7,6 @@ level = "info"
 [server]
 runOnSave = true
 maxUploadSize = 200
+
+[client]
+showSidebarNavigation = false

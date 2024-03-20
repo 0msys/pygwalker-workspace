@@ -1,7 +1,7 @@
 version: "3.9"
 services:
-  template:   # "template"を任意の名前に変更
-    container_name: template    # "template"を任意の名前に変更
+  pygwalker-workspace:
+    container_name: pygwalker-workspace
     build:
       context: .
       dockerfile: Dockerfile
@@ -9,3 +9,5 @@ services:
     tty: true
     ports:
       - "8501:8501"
+    volumes:
+      - ./db:/workspace/db

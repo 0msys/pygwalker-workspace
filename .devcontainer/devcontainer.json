@@ -1,6 +1,6 @@
 {
-  "name": "template-container",   // "template"を任意の名前にする
-  "service": "template-dev",      // "template"をcompose-dev.ymlと同じにする
+  "name": "pygwalker-workspace-container",
+  "service": "pygwalker-workspace-dev",
   "workspaceFolder": "/workspace",
   "dockerComposeFile": "compose-dev.yml",
   "remoteUser": "pyuser",
@@ -13,7 +13,8 @@
         "ryu1kn.partial-diff",
         "janisdd.vscode-edit-csv",
         "mhutchie.git-graph",
-        "yzhang.markdown-all-in-one"
+        "yzhang.markdown-all-in-one",
+        "alexcvzz.vscode-sqlite"
       ]
     }
   },
